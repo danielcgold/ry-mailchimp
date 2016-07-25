@@ -1,1 +1,1 @@
-# ry-mailchimp
+Simple Mailchimp signup form
