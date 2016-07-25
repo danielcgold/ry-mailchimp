@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,9 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
 
-  <title>Signup</title>
+  <title>RY Unofficial Newsletter</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       padding: 0;
@@ -21,17 +24,37 @@
       background-position: center;
       width: 100vw;
       height: 100vh;
-      min-height: 950px;
+      min-height: 1050px;
+      padding: 60px 20px;
     }
 
     .asterisk {
       color: #db0029;
     }
 
-    form {
+    .form-title {
+      margin: 0;
+      padding: 0;
+      font-weight: normal;
+    }
+
+    .form-title, .manifesto-link {
       max-width: 400px;
       margin: auto;
-      padding: 80px 20px;
+    }
+
+    .manifesto-link a {
+      color: #022236;
+      font-size: 12px;
+    }
+
+    .manifesto-link a:hover {
+      color: #000;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 50px auto 0;
     }
 
     label {
@@ -45,7 +68,6 @@
       width: 100%;
       font-size: 16px;
       font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-      box-sizing: border-box;
     }
 
     .button {
@@ -69,6 +91,9 @@
 
   <body>
     <div class="page-content">
+      <h1 class="form-title">RY Unofficial Newsletter</h1>
+      <p class="manifesto-link"><a href="https://docs.google.com/document/d/1Q6qj9M9apSCCFneD9UGID7Vit0CdxnDA2edwkJXmiAU/" target="_blank">Manifesto</a></p>
+
       <form action="//remoteyear.us13.list-manage.com/subscribe/post?u=fd60ac6435792adcaa7d9bc25&amp;id=ecba4ce945" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
         <div class="mc-field-group">
           <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
